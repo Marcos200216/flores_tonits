@@ -564,6 +564,41 @@ button:active {
 
 
 /* =========================
+   AVISO PARA SEGUIR BAJANDO
+========================= */
+
+.next-hint {
+
+    position: relative;
+
+    z-index: 20;
+
+    margin-top: 40px;
+
+    text-align: center;
+
+    color: #d8b94d;
+
+    font-size: clamp(12px, 3vw, 14px);
+
+    letter-spacing: 1px;
+
+    opacity: .75;
+
+    animation: bounce 2s infinite;
+}
+
+.next-arrow {
+
+    display: block;
+
+    margin-top: 4px;
+
+    font-size: 18px;
+}
+
+
+/* =========================
    CARTA
 ========================= */
 
